@@ -201,6 +201,7 @@ static void _YYDiskCacheSetGlobal(YYDiskCache *cache) {
     _ageLimit = DBL_MAX;
     _freeDiskSpaceLimit = 0;
     _autoTrimInterval = 60;
+    ///接口开会开会开会
     
     [self _trimRecursively];
     _YYDiskCacheSetGlobal(self);
